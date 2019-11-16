@@ -1,0 +1,31 @@
+:host{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "host-header host-header"
+    "host-first-column host-second-column"
+    "host-footer host-footer";
+  grid-gap: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+header{
+  grid-area: host-header;
+  text-align: center;
+  padding: 1em;
+  background:aquamarine;
+  color: blueviolet;
+}
+
+app-input{
+  grid-area: host-first-column;
+}
+
+app-output{
+  grid-area: host-second-column;
+}
+
+app-footer{
+  grid-area: host-footer;
+}
