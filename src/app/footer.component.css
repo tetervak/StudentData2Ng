@@ -1,9 +1,16 @@
-:host{
-  text-align: center;
-  padding: 1em;
-  background: aquamarine;
-  color: blueviolet;
+footer{
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bolder;
+  border-top: #78909c solid;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  margin-top: 1.5em;
+  width: 18em;
+  color: #546e7a;
 }
-span.hart{
+
+footer .hart{
   color: #e91e63;
 }

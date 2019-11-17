@@ -7,6 +7,7 @@ import {OutputComponent} from './output.component';
 import {FooterComponent} from './footer.component';
 import {StudentDataService} from './student-data.service';
 import {ReactiveFormsModule} from '@angular/forms';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {ReactiveFormsModule} from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FlexLayoutModule
   ],
   providers: [StudentDataService],
   bootstrap: [AppComponent]
