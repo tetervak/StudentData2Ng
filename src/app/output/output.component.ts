@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {Student} from './student';
-import {StudentDataService} from './student-data.service';
+import {Student} from '../student';
+import {StudentDataService} from '../student-data.service';
 
 @Component({
   selector: 'app-output',
